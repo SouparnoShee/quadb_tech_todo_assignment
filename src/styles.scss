@@ -1,0 +1,10 @@
+// Importing the styles of different components
+@import "./styles/home.scss";
+@import "./styles/singlenote.scss";
+@import "./styles/create.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}

@@ -1,0 +1,57 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #222;
+
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    img {
+      height: 80px;
+    }
+  }
+  .notepad {
+    min-height: 400px;
+    width: 60%;
+    @media (max-width: 600px) {
+      width: 95%;
+    }
+    .pad-head {
+      text-align: center;
+      background-color: rgb(225, 243, 59);
+      padding: 20px 30px;
+      border-radius: 20px 20px 0px 0px;
+
+      h2 {
+        color: #000;
+      }
+    }
+    .pad-body {
+      min-height: 300px;
+
+      background: #fff;
+      border-radius: 0px 0px 20px 20px;
+      .checked-single-note {
+        background-color: gray;
+      }
+    }
+  }
+  .add-butt {
+    button {
+      width: 140px;
+      padding: 8px 8px;
+      font-size: 22px;
+      font-weight: 800;
+      outline: none;
+      border: none;
+    }
+  }
+}
