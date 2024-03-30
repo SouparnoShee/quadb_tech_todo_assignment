@@ -1,8 +1,22 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is made using react + vite and redux toolkit
 
-Currently, two official plugins are available:
+A simple frontend CRUD app using the latest approach of redux toolkit 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Directions to run the project - 
+
+1) Pull the project from git hub using "git pull"
+2) Run the command "npm install" to install the packages
+3) Then Run "npm run dev" to run the project in your localhost
+
+Use Case and Functionalities - 
+
+This app perform crud functionalities
+
+Read the tasks in home screen
+Check and uncheck the tasks when completed with the checkbox in left corner of each tasks
+Add tasks by clicking on add button
+Edit and delete each tasks as provided on the right side of each tasks
+When Editing and Adding task, A pop up window will open.
